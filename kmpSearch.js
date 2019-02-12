@@ -1,5 +1,5 @@
 /**
- * Preprocess the pattern by computing a failur function that indicates the largest
+ * Preprocess the pattern by computing a failure function that indicates the largest
  * possible shift using previously performed comparisons.
  * @param {string} pattern - The pattern to process.
  * @returns {Array} patternTable - An array of potential fallback positions.
@@ -50,7 +50,7 @@ const kmpSearch = (text, pattern) => {
       if (patternIndex === pattern.length - 1) {
         // Character match is found, and we're at the end of the pattern. Return the index
         // of `text` where the match was found.
-        // If more than the initial match is need, this index could be pushed to an array
+        // If more than the initial match is needed, this index could be pushed to an array
         // to return at the end.
         return textIndex - patternIndex;
       }
