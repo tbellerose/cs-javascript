@@ -4,3 +4,5 @@ Basic computer science algorithm and data structure implementations in JavaScrip
 
 - [binarySearch.js](./binarySearch.js) - Binary Search
 - [kmpSearch.js](./kmpSearch.js) - Knuth-Morris-Pratt string search
+- [queue.js](./queue.js) - Queue data structure
+- [stack.js](./stack.js) - Stack data structure
