@@ -5,7 +5,7 @@
  * @returns {number} - Index of `arr` where `target` found. -1 if `target` not found.
  */
 const binarySearch = (arr, target) => {
-  // Initialize points at the left and right bounds of the array
+  // Initialize points at the left and right bounds of the array.
   let left = 0;
   let right = arr.length - 1;
 
