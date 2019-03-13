@@ -1,0 +1,20 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "plugins": ["babel"],
+  "rules": {
+    "babel/semi": 1,
+    "react/jsx-one-expression-per-line": 0,
+    "import/no-extraneous-dependencies": [
+      0,
+      { "devDependencies": ["**/*.test.js", "tests/**"] }
+    ],
+    "react/jsx-filename-extension": [0, [".*/tests/**"]],
+    "no-underscore-dangle": [0, ["server/tets/**"]],
+    "no-unused-expressions": [2, { "allowTernary": true }]
+  },
+  "env": {
+    "jest": true,
+    "browser": true
+  }
+}
