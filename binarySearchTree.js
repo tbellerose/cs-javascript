@@ -76,7 +76,7 @@ class BinarySearchTree {
    * @param {*} fn - Function to be executed at each Node in the tree
    */
   traverse(fn) {
-    function inOrder(node) {
+    const inOrder = node => {
       if (node) {
         if (node.left) {
           inOrder(node.left);
@@ -86,7 +86,7 @@ class BinarySearchTree {
         }
         fn(node);
       }
-    }
+    };
     inOrder(this.root);
   }
 
