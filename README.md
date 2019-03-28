@@ -6,6 +6,7 @@ Basic computer science algorithm and data structure implementations in JavaScrip
 - [kmpSearch.js](./kmpSearch.js) - Knuth-Morris-Pratt string search
 - [bubbleSort.js](./bubbleSort.js) - Bubble sort
 - [selectionSort.js](./selectionSort.js) - Selection sort
+- [mergeSort.js](./mergeSort.js) - Merge sort
 - [queue.js](./queue.js) - Queue data structure
 - [stack.js](./stack.js) - Stack data structure
 - [linkedList.js](./linkedList.js) - Linked List data structure
