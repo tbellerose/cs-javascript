@@ -4,6 +4,7 @@ Basic computer science algorithm and data structure implementations in JavaScrip
 
 - [binarySearch.js](./binarySearch.js) - Binary Search
 - [kmpSearch.js](./kmpSearch.js) - Knuth-Morris-Pratt string search
+- [longestCommonSubsequence.js](./longestCommonSubsequence.js) - Longest Common Subsequence
 - [bubbleSort.js](./bubbleSort.js) - Bubble sort
 - [selectionSort.js](./selectionSort.js) - Selection sort
 - [mergeSort.js](./mergeSort.js) - Merge sort
